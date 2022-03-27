@@ -1,0 +1,324 @@
+.top-container{
+    display: flex;
+    margin-top: 0%;
+}
+
+.top-left-container{
+    justify-content: left;
+    display: flex;
+    margin-left: 1%;
+}
+.top-right-container{
+    display: flex;
+    justify-content: right;
+    margin-left: 40%;
+}
+#cur{
+    border: none;
+}
+#lang{
+    border: none;
+    padding-left: 40px;
+}
+#vline{
+    margin-left: 30%;
+    margin-top: 7%;
+}
+#list{
+    display: flex;
+    font-size:large;
+    list-style: none;
+    justify-content:  left;   
+}
+#list li{
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top-below-container{
+    display: flex;
+    margin-top: 0%;
+    margin-top: 2%;
+    width: 100%;
+}
+.top-below-left-container{
+    justify-content: left;
+    display: flex;
+    margin-left: 1%;
+   width: 15%;
+}
+.top-below-middle-container{
+    justify-content: left;
+    display: flex;
+    margin-left: 4%;
+    border: 2px  red solid;
+    width: 40%;
+    height: 8vh;
+   margin-top: 20px;
+}
+.top-below-right-container{
+    justify-content: left;
+    display: flex;
+    margin-left: 10%;
+   
+}
+#find{
+   border: none;
+    width: 100%;
+}
+#contact{
+    padding-left: 10%;
+}
+#cat{
+    border: none;
+    padding-left: 1%;
+}
+#wish{
+    padding-left: 10%;
+    font-size: large;
+}
+#comp{
+    padding-left: 10%;
+    font-size: large;
+}
+#cart{
+    padding-left: 10%;
+    font-size: large;
+}
+.inner-container{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.inner-left-container{
+    width: 20%;
+    display: flex;
+    margin-left: 2%;
+}
+#categories{
+    height: 8vh;
+    border: 1px;;
+    background-color: rgb(243, 44, 44);
+    width: 100%;
+    color: white;
+    font: bolder;
+}
+#inner-list{
+    display: flex;
+    font-size:large;
+    list-style: none;
+    justify-content:  left;
+    color: white;
+    margin-left: 0px;
+   
+}
+#inner-list li{
+    padding-right: 20px;
+
+}
+.inner-middle-container{
+    display: flex;
+    width: 50%;
+} 
+ .inner-right-container{
+    display: flex;
+    width: 20%;
+}
+#inner-list2{
+    display: flex;
+    font-size:large;
+    list-style: none;
+    justify-content:  right;
+    color: white;    
+}
+#inner-list2 li{
+    padding-left: 7px;
+   text-align: right;
+}
+.hero-mid{
+    display:flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    padding-bottom: 5%;
+}
+.sd{
+    margin-top: 12%;
+    margin-left: 15%;
+}
+.botn{
+    border: 1px solid brown;
+    padding: 10px;
+    color: brown;
+}
+.botn:hover{
+    color: white;
+    background-color: brown;
+    transition: 1s;
+}
+.mid-left-container{
+    background-color: solid red;
+    height: 50;
+    width: 50%;
+}
+.feat{
+    display: flex;
+    padding: 15px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.mon{
+    display: flex;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-right: 20px;
+}
+#money{
+    width: 45px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.cv{
+    display: flex;
+    border: 1px solid gray;
+    margin-right: 20px;
+    padding: 10px;
+}
+.head{
+    width: 45px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.gv{
+    display: flex;
+    border: 1px solid gray;
+    margin-right: 20px;
+    padding: 10px;
+}
+.shipp{
+    width: 45px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.fv{
+    display: flex;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.pa{
+    width: 45px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.ele-fur{
+    display: flex;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.fashion{
+    display: flex;
+    width: 50%;
+    background-color: lightgray;
+    margin-right: 20px;
+}
+.bag{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.bg-div{
+    margin-left: 20%;
+    width: 200px;
+}
+.shoe{
+    display: flex;
+    width: 50%;
+    background-color: lightgray;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.shoe-div-container{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.shoe-mid-container{
+    margin-left: 20%;
+    width: 200px;
+}
+.men{
+    display: flex;
+    width: 50%;
+    background-color: lightgray;
+    margin-right: 20px;
+}
+.jacket{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.jacket-container{
+    margin-right: 20%;
+    width: 200px;
+}
+.line-bar{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.line-bar-container{
+    border-bottom: 1px solid gray;
+    width: 70%;
+}  
+.t-shoe{
+    display: flex;
+}
+.t-shoe-container{
+    display: flex;
+    border: 1px solid brown;
+    width: 50%;
+    padding: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.t-shoe-lft{
+    justify-content: left;
+    display: flex;
+    margin-left: 10%;
+}
+#cat{
+    border: none;
+    padding-left: 1%;
+}
+#wish{
+    padding-left: 10%;
+    font-size: large;
+}
+.o-shoe-container{
+    display: flex;
+    border: 1px solid brown;
+    margin-right: 2px;
+    width: 50%;
+    padding: 2px;
+}
+.o-shoe-pic{
+    width: 75%;
+    padding-right: 30px;
+}
+.sell{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.sell-t{
+    display: flex;
+    padding-top: 5%;
+}
+.qq{
+    width: 150px;
+    border: none;
+    margin-right: 10px;
+    background-color: blanchedalmond;
+}
