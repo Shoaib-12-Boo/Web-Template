@@ -1,0 +1,130 @@
+
+a:hover{
+    text-decoration: none;
+}
+
+.section{
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head:after{
+    color: #0652DD;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto ;
+}
+
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+#header{
+    color: white;
+    background-color: #0652DD;
+}
+#menu{
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+}
+
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: white;
+    padding: 15px 10px;
+    display: block;
+}
+#menu li a:hover{
+    background-color: #1B1464;
+}
+#banner{
+    background: url(7.jpg) no-repeat 0 0;
+    background-size: cover ;
+}
+
+.banner-title{
+    padding-top: 5rem;
+}
+
+.banner-title h1{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0%;
+}
+
+.banner-title p.lead{
+    color: white;
+    background-color: rgba(6, 82, 221, 0.7);
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+
+.service-box i.fa{
+    color: #0652DD;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+#testimonial{
+    color: #fff;
+    background: url(9.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+#testimonial:before{
+    background-color:rgba(69, 143, 209, 0.2);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 1422px;
+    height: 405px;
+}
+
+.testimonial image{
+    border: radius 50px;
+}
+.news-post img{
+    margin: 5px;
+    width: 20%;
+}
+.news-post h3{
+    font-size: 1.35rem;
+}
+
+.news-post h3 a{
+    color: #e74c3c;
+}
+.post-date{
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+.post-date:before{
+    content: "\f073";
+    font-family: FontAwesome;
+    padding: 5px;
+}
+a.readmore{
+    font-size: 14px;
+    color: #e74c3c;
+}
+a.readmore:after{
+    content: "\f061";
+    font-family: FontAwesome;
+    padding-left: 5px;
+}
