@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .HeroSection {
+            width: 100%;
+            height: 80vh;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: centers;
+        }
+
+        /* .HeroSection:nth-child(1){
+            width: 20%;
+            /* height: 100%; */
+        /* background-color: brown; */
+        /* }  */
+        .HSLeft {
+            width: 30%;
+            height: 100%;
+            /* background-color: brown; */
+        }
+
+        .HSRight {
+            /* background-color: black; */
+            background-image: url("image/1.jpg");
+            background-size: cover;
+            background-position: center;
+            width: 70%;
+            height: 100%;
+            display: flex;
+        }
+
+        .HSRContent {
+            /* background-color: blue; */
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 5%;
+
+        }
+
+        .HSRContent>button {
+            width: 40%;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: 1px solid black;
+            background-color: transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .HSRContent>button:hover { 
+        background-color: red; 
+         color: white; 
+         border: 1px solid transparent;
+        transition: all 1s linear; 
+        /* border-radius: 5px; */
+        /* box-shadow: 0px 0px 5px black; */
+
+        } 
+        .HSRContent>button::before {
+            content: "";
+            position: absolute;
+            width: 20%;
+            height: 150px;
+            background-color: aqua;
+            top: -108px;left: 0;
+           /* left: 0;top: 0; */
+            transform: rotate(50deg);
+            transition: all 0.5s linear;
+        }
+
+        .HSRContent>button:hover:before {
+            content: "";
+            position: absolute;
+            width: 20%;
+            height: 150px;
+             background-color: rgb(0, 0, 0); 
+            top: -80%;left: 100%;
+
+            /* transform: rotate(50deg); */
+        }
+        .HSRContent>h4 {
+            color: red;
+            margin-top: 10px;
+
+        }
+
+        .HSRContent>h3 {
+            font-size: 30px;
+            font-weight: 100;
+            margin-top: 10px;
+
+        }
+
+        .HSRContent>p {
+            margin-top: 10px;
+
+        }
+    </style>
+    <div class="wrapper">
+
+        <div class="HeroSection">
+            <div class="HSLeft">
+
+            </div>
+            <div class="HSRight">
+                <div class="HSRContent">
+                    <h4>FROM ONLINE STORE</h4>
+                    <h1>NIKE SHOES</h1>
+                    <h3>Recomended</h3>
+                    <p>Free Shoping</p>
+                    <button>SHOP NOW</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
