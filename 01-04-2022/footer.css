@@ -1,0 +1,164 @@
+/* .css-button-gradient--5 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #000428 0%, #004e92 75%);
+  }
+  .css-button-gradient--5:hover {
+    background-position: right center;
+  }
+  .css-button-gradient--5:active {
+    top: 2px;
+  }*/
+
+
+/* Topmenu stles with hover */
+
+  .topmenu:link{
+    background-color:Dark;	
+    padding:10px;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin:-2px;
+    border-bottom-right-radius:80px;
+    border-top-left-radius:80px;
+    
+  }
+  .topmenu:hover{
+    background-color:Green;
+    
+    padding:15px;
+    font-weight:bold;
+  }
+
+
+
+/* Foorter sector in work */
+
+.section_footer {
+  width: 100%;
+  float: left;
+  background-color: #272222;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.mail_section {
+  width: 100%;
+  float: left;
+}
+.mail_section {
+  float: left;
+  font-size: 12pt;
+  color: #fdfefe;
+  padding-right: 35px;
+}
+.footer-logo {
+  float: left;
+  font-size: 12pt;
+  color: #fdfefe;
+}
+.social_icon ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.map_text {
+  padding-left: 15px;
+}
+.dummy_text {
+  width: 100%;
+  float: left;
+  font-size: 12pt;
+  color: #ffffff;
+  margin-left: 0px;
+  margin-top: 55px;
+  line-height: 25px;
+}
+.shop_text {
+  width: 100%;
+  float: left;
+  font-size: 28px;
+  color: #ebebeb;
+}
+.image-icon {
+  width: 100%;
+  float: left;
+  padding-top: 6px;
+}
+.pet_text {
+  font-size: 12pt;
+  color: #ffffff;
+  padding-left: 16px;
+  display: flex;
+  top: -26px;
+  position: relative;
+  padding-left: 20px;
+}
+.delivery_text{
+	width: 100%;
+	float: left;
+	font-size: 17px;
+	color: #ffffff;
+}
+.adderess_text {
+  width: 100%;
+  float: left;
+  font-size: 28px;
+  color: #ebebeb;
+}
+
+.enter_email{
+  border: 1px solid #000;
+  color: #000000;
+  width: 100%;
+  height: 44px;
+  font-size: 14px;
+  padding: 20px;
+}
+.subscribr_bt  {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(315deg, #ff4e5b 0%, #000000 75%);
+}
+.subscribr_bt:hover {
+  background-position: right center;
+}
+.subscribr_bt:active {
+  top: 2px;
+}
+.copyright {
+  width: 100%;
+  float: left;
+  font-size: 12pt;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #ff4e5b;
+  font-family: Poppins;
+}
+
+.copyright a{ color: #ffffff; }
+.copyright a:hover{ color: #000; }
