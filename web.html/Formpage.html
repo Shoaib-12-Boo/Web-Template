@@ -1,0 +1,135 @@
+<html>
+	<head> 
+		<title> WWW.GCUF.COM.PK </title>
+		
+	</head>
+	<link rel="stylesheet" type="text/css" href="cssIT.css">
+	<body>
+		
+		<center>
+			<img src="images/logo.png"/>
+			<font color="blue"><h1> WWW.GCUF.EDU.PK </h1> </font>
+			<hr />
+				<a class="topmenu" href="Home.html">Home</a> 
+				<a class="topmenu" href="Response.html">Response</a> 
+				<a class="topmenu" href="Table.html">Table</a> 
+				<a class="topmenu" href="Formpage.html">Form page</a>		<!-- Home,Formpage,Table,Response--> 
+			<hr />
+		</center>	
+		<style>
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: brown;
+    color: gray;
+    margin: 12px 2px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+</style>
+			
+			<form method="Post" action="response.html">
+			<label>First Name<label> <input type="text" name="firstname" /> <br/>
+			<label>Last Name<label> <input type="text" name="lastname" /><br/><br/>
+			<label>Email<label> <input type="text" name="Email" /> <br/>
+			<label>Passward<label> <input type="text" name="Passward" /> <br/>
+			
+			<h3> Select your Fav Vehicle </h3> 
+			<input type="checkbox" name="vehicle" value="Bike" /> I have a bike<br />
+			<input type="checkbox" name="vehicle" value="Car" /> I have a car <br/>
+			
+			<h3> Select your gender </h3> 
+			<input type="radio" name="gender" value="male" /> Male <br />
+			<input type="radio" name="gender" value="female" /> Female <br/><br>
+			
+			<h3> Select your Fav fruites </h3>
+			<select>
+				<option>Apples</option>
+				<option selected="selected">Bananas</option>
+				<option>Cherries</option>
+				<option>Dates</option>
+				<option>Mango</option>
+				<option>Melon</option>
+			</select> <br/><br>
+			
+			<h3> Enter Your Comments </h3>
+			<textarea cols="30" rows="5"> Enter your comments here </textarea> <br/><br> 
+			<input type="radio" value="I'm not a Robot" /> I'm not a Robot <br /><br>
+			<input type="submit" value="Click here to Submit" /><br />
+			
+			</form>	<br/><br/><br/><br/><br/>
+			
+			
+			
+			
+			<form method="Post" action="response.html">
+			
+				First name: <input type=“text” name=“firstname” size=“15” maxlength=“30”><br/>
+				Last name: <input type=“text” name=“lastname” size=“15” maxlength=“30”><br><br><br/>
+				Email: <input type=“text” name=“email” size=“25” maxlength=“30”><br>
+				
+			
+				<br>
+				What is the meaning of life?<br/>
+				<textarea name=“meaning” rows=“4” cols=“40”>
+				</textarea><br><br>
+				What do you want on your pizza?<br/>
+			<br />
+				<input type=“checkbox” name=“topping”>Pepperoni 
+				
+				<input type=“checkbox” name=“topping”>Sausage 
+			
+				<input type=“checkbox” name=“topping”>Mushrooms </label>
+			
+				<input type=“checkbox” name=“topping”>Olives </label>
+				
+				</form>
+	</body>
+</html>
+
+					<style>
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: red;
+    background-image: url('searchicon.png');
+	background-size:25px;
+    background-position: 10px 8px;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+</style>
+</head>
+<body>
+
+<p>Best search:</p>
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+
+</body>
+</html>

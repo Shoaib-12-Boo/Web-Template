@@ -1,0 +1,47 @@
+h1{backgroundcolor: red}
+h2{color:green}
+h3{color:blue}
+h4{color:violet}
+h2{font-family: 'Courier New', Courier, monospace}
+h1{font-size: 30pt:}
+
+h1{text-decoration:underline}
+h1{font-style: italic}
+
+a:link{color:#C3F}
+a:visted{color:#609}
+a:hover{color:#0CF}
+a:active{color:#F96}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 2em;
+}
+
+
+.topmenu:link{
+	background-color:Dark;	
+	padding:10px;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin:-2px;
+	border-bottom-right-radius:80px;
+	border-top-left-radius:80px;
+	
+}
+.topmenu:hover{
+	background-color:Green;
+	
+	padding:15px;
+	font-weight:bold;
+}
+
+table{
+	border-collapse:collapse;
+	width:100%;
+}
+
