@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">		
+		<!-- STYLE FONTAWESOM -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<!--Style CSS-->
+    <link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="inner">
+				<form action="connect.php" class="form" method="post">
+					<h3>Registration Form</h3>
+					<div class="form-group">
+						<div class="form-wrapper">
+							<label for="">First Name</label>
+							<input type="text" name="fname" class="form-control" style="width: 85%"; autocomplete="off" placeholder="First Name" required="required">
+						</div>
+						<div class="form-wrapper">
+							<label for="">Last Name</label>
+							<input type="text" name="lname" class="form-control" style="width: 85% right: 0px"; autocomplete="off" placeholder="Last Name" required="required">
+						</div>
+					</div>
+					<div class="form-wrapper">
+						<label for="mail">Email</label>
+						<input type="mail" name="mail" pattern="[^ @]*@[^ @]*" class="form-control" autocomplete="off" placeholder="Enter Your Email" required="required">
+					</div>
+					<div class="form-wrapper">
+						<label for="pwd">Password</label>
+						<input type="password" name="password" class="form-control" autocomplete="off" placeholder="Enter Passwrod" required="required">
+					</div>
+					<div class="form-wrapper">
+						<label for="pwd">Confirm Password</label>
+						<input type="password" name="confirm_password" class="form-control"  autocomplete="off" placeholder="Confirm Passwor" required="required">
+					</div>
+                    <small>Already have an account ? <a href="login.html" class="login-btn">Login</a><i class="fa-solid fa-right-long"></i></small>
+					<button type="submit" name="register">Register Now</button>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>
