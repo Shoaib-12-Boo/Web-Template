@@ -1,0 +1,57 @@
+.cotainer{
+    border: 0px aqua;
+    /* background-color: aqua; */
+}
+.row{
+    border: 0px block;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: yellowgreen;
+    box-shadow:  2px 5px 5px 5px;
+}
+#heading{
+    background-color: greenyellow;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    border: 0 solid green;
+}
+#menu{
+    background-color: lightcoral;
+    padding: 10px 0;
+}
+#menu :hover{
+    background-color: aqua;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0%;
+}
+#menu ul li{
+    display: inline-block;
+    color: blue;
+}
+#menu ul li :hover{
+    display: inline-block;
+    color:palevioletred
+}
+#content{
+    background-color: deepskyblue;
+}
+#left{
+    background-color: blanchedalmond;
+    color: darkgoldenrod;
+}
+#right{
+    background-color: blanchedalmond;
+}
+#footer{
+    background-color: purple;
+
+}
